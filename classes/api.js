@@ -20,7 +20,7 @@ class API {
   }
 
   async _req(url) {
-    const baseURL = 'https://api.playbattlegrounds.com/shards'
+    const baseURL = 'https://api.pubg.com/shards'
     const headers = {
       'Authorization': this.apikey,
       'Accept': 'application/vnd.api+json'
